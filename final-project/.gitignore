@@ -1,0 +1,10 @@
+# Raw/interim/processed data are large and reproducible via src/data_loader.py
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+.pytest_cache/
+
